@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    padding: 0; 
+    background-image: url(../img/fondo1.jpg);
+    background-size: cover;
+    background-position-y: -156px;
+    background-repeat: no-repeat;
+  }
+  :root {
+      --color-violeta: #89057C;
+      --color-rosado: #DA96CC;
+      --color-header1: #fafbff65;
+      --color-header2: #DA96CC;
+      --color-login: #89057C;
+      --color-boton: #B47F2D;
+      --font-titulo: 'Abril Fatface',  cursive;
+      --font-subtitulo: 'Arbutus Slab';
+  }
+ .titulo {
+    font-size: 60px;
+    margin: 20px auto;
+    text-align: center;
+    font-family:'Abril Fatface', cursive;
+    color: #89057C;
+    text-shadow: 1px 1px 1px #DA96CC,
+    -3px 1px 1px #DA96CC;
+ }
+
+ .subtitulo {
+    font-size: 35px;
+    padding: -100px;
+    margin: -20px auto;
+    text-align: center;
+    font-family: 'Arbutus Slab';
+    color: #89057C;
+    text-shadow: 1px 1px 1px #DA96CC,
+    -3px 1px 1px #DA96CC;  
+ }
+    /*ICONOS*/
+ .facebook, .instagram {
+     color: white;
+ }
+
+ .contenedor {
+     width: 90%;
+     max-width: 1200px;
+     margin: auto;
+     overflow: hidden;
+     padding: 60px 0;
+     
+ }
+    /*MENU*/
+
+ .header {
+     background-color: var(--color-header1);
+     height: 50px;
+ }
+ .menu-navegacion {
+    
+     padding: 0;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: 70px;
+     
+ }
+
+ .enlaces li {
+     list-style: none;
+     display: inline-block;
+ }
+
+ .enlaces a{
+     text-decoration: none;
+     color: #89057C;
+     font-family: 'Bebas Neue', cursive;
+     padding-left: 43px;
+     font-weight: 700px;
+     font-size: 20px;       
+ }
+
+ .menu-navegacion a {
+    position: static;
+    left: 200px;
+    right: 40%;
+    top: 25%;
+    bottom: 30%;
+    color: white;
+    font-family: 'Bebas Neue';
+    font-size: 18px;
+    text-align:center;
+    text-decoration: none;
+    
+ }
+ .boton1 { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 15px;
+    background: #DA96CC;
+    border-radius: 5px;
+ }
+
+ .boton2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 15px;
+    position: absolute;
+    left: 66.67%;
+    right: 19.51%;
+    top: 3.03%;
+    bottom: 93.07%;
+    background: #89057C;
+    border-radius: 5px;
+ }
+ 
+ 
+
+
+
+ /*.slider {
+    width: 1440px;
+    height:541px;
+    background: url(../img/slider/1.1.jpg);
+    margin: 50px auto;
+    animation: slide 20s infinite;
+ }
+
+ @keyframes slider {
+
+     25% {
+         background: url();
+     }
+     50% {
+        background: url();
+    }
+    75% {
+        background: url();
+    }
+    100% {
+        background: url();
+    }
+    25% {
+        background: url();
+    }
+    25% {
+        background: url();
+    }
+    25% {
+        background: url();
+    }
+    25% {
+        background: url();
+    }
+     
+ }*/
+ 
