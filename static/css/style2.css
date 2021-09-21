@@ -1,6 +1,12 @@
 body {
+    margin: 0;
+    padding: 0;
     background-image: url(../img/fondo2.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 /*MENU*/
@@ -145,14 +151,15 @@ top: calc(50% - 316px/2);
     font-family: 'Abril Fatface', cursive;
     text-decoration-line: underline;
     text-align: center;
+    margin-top: 1px;
 }
 
 h3 {
 position: absolute;
-width: 849px;
+width: 85%;
 height: 728px;
 left: 35px;
-top: 150px;
+top: 200px;
 font-family: 'Arbutus Slab', cursive;
 font-style: normal;
 font-weight: normal;
@@ -162,4 +169,18 @@ text-align: justify;
 
 p {
     font-weight:bold;
+}
+
+.imagen {
+    position: absolute;
+    width: 394px;
+    height: 535px;
+    left: 900px;
+    top: 170px
+}
+
+.contenedor h3 {
+    width: 85%;
+    max-width: 850px;
+    
 }

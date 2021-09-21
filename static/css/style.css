@@ -3,9 +3,12 @@ body{
     padding: 0; 
     background-image: url(../img/fondo1.jpg);
     background-size: cover;
-    background-position-y: -156px;
     background-repeat: no-repeat;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
   }
+
   :root {
       --color-violeta: #89057C;
       --color-rosado: #DA96CC;
@@ -13,9 +16,8 @@ body{
       --color-header2: #DA96CC;
       --color-login: #89057C;
       --color-boton: #B47F2D;
-      --font-titulo: 'Abril Fatface',  cursive;
-      --font-subtitulo: 'Arbutus Slab';
   }
+
  .titulo {
     font-size: 60px;
     margin: 20px auto;
@@ -41,28 +43,25 @@ body{
      color: white;
  }
 
- .contenedor {
+ .menu-navegacion {
      width: 90%;
      max-width: 1200px;
      margin: auto;
-     overflow: hidden;
-     padding: 60px 0;
-     
+     overflow: hidden;    
  }
     /*MENU*/
 
  .header {
      background-color: var(--color-header1);
      height: 50px;
+     padding-bottom: 10px;
  }
- .menu-navegacion {
-    
-     padding: 0;
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     height: 70px;
-     
+
+ .enlaces {
+    position: center;
+    left: 0%;
+    right: 0%;
+    top: 0px;
  }
 
  .enlaces li {
@@ -70,16 +69,16 @@ body{
      display: inline-block;
  }
 
- .enlaces a{
+ .menu-navegacion .enlaces a{
      text-decoration: none;
      color: #89057C;
      font-family: 'Bebas Neue', cursive;
      padding-left: 43px;
      font-weight: 700px;
-     font-size: 20px;       
+     font-size: 22px;       
  }
 
- .menu-navegacion a {
+ /*.menu-navegacion a {
     position: static;
     left: 200px;
     right: 40%;
@@ -90,7 +89,9 @@ body{
     font-size: 18px;
     text-align:center;
     text-decoration: none;
-    
+ }*/
+ .botones {
+     padding-left: 850px;
  }
  .boton1 { 
     display: flex;
