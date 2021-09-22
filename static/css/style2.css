@@ -10,7 +10,7 @@ body {
 }
 
 /*MENU*/
-.header {
+.header2 {
     background-color: var(--color-header2);
     height: 50px;
 }
@@ -173,14 +173,53 @@ p {
 
 .imagen {
     position: absolute;
-    width: 394px;
-    height: 535px;
-    left: 900px;
-    top: 170px
+    width: 300px;
+    height: 400px;
+    left: 950px;
+    top: 300px;
+    
 }
 
 .contenedor h3 {
     width: 85%;
     max-width: 850px;
-    
 }
+
+/*INICIO*/
+/*.slider {
+    width: 1440px;
+    height:541px;
+    background: url(../img/slider/1.1.jpg);
+    margin: 50px auto;
+    animation: slide 20s infinite;
+ }
+
+ @keyframes slider {
+
+     25% {
+         background: url();
+     }
+     50% {
+        background: url();
+    }
+    75% {
+        background: url();
+    }
+    100% {
+        background: url();
+    }
+    25% {
+        background: url();
+    }
+    25% {
+        background: url();
+    }
+    25% {
+        background: url();
+    }
+    25% {
+        background: url();
+    }
+     
+ }*/
+ 

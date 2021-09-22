@@ -12,6 +12,10 @@ def homepage():
 def login():
     return render_template('login.html')
 
+@app.route('/inicio')
+def inicio():
+    return render_template('inicio.html')
+
 @app.route('/registro')
 def registro():
     return render_template('registro.html')

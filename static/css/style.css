@@ -51,7 +51,7 @@ body{
  }
     /*MENU*/
 
- .header {
+ .header1 {
      background-color: var(--color-header1);
      height: 50px;
      padding-bottom: 10px;
@@ -120,40 +120,4 @@ body{
 
 
 
- /*.slider {
-    width: 1440px;
-    height:541px;
-    background: url(../img/slider/1.1.jpg);
-    margin: 50px auto;
-    animation: slide 20s infinite;
- }
-
- @keyframes slider {
-
-     25% {
-         background: url();
-     }
-     50% {
-        background: url();
-    }
-    75% {
-        background: url();
-    }
-    100% {
-        background: url();
-    }
-    25% {
-        background: url();
-    }
-    25% {
-        background: url();
-    }
-    25% {
-        background: url();
-    }
-    25% {
-        background: url();
-    }
-     
- }*/
  
