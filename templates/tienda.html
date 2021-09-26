@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tienda</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="static/css/style.css">
+        <link rel="stylesheet" href="static/css/style2.css">
+        <link rel="stylesheet" href="static/css/slider.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <style>@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap');</style>
+        <style>@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arbutus+Slab&display=swap');</style>    
+        <style>@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arbutus+Slab&family=Bebas+Neue&display=swap');</style>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style2.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/slider.css') }}">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg header2 header">
+            <div class="container-fluid">
+              <h2 clas="gyg">G&G Dulzura</h2>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+                  <a class="nav-link" href="/sobremi">SOBRE MI</a>
+                  <a class="nav-link" href="/contacto">CONTACTO</a>
+                  <a class="nav-link" href="/">CERRAR SESIÓN</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+
+          <main class="menu">
+            <section class="contenedor-menu">
+              <h2 class="titulo-section">Bienvenidos a la Tienda!</h2>
+              <p class="parrafo">Elegí con qué querés endulzarte hoy</p>
+              <div class="menu-productos">
+                <div class="categoria1">
+                  <p class="text">ALFAJORES</p>
+                </div>
+                <div class="categoria2">
+                  <p class="text">TORTAS</p>
+                </div>
+                <div class="categoria3">
+                  <p class="text">DONAS</p>
+                </div>
+                <div class="categoria4">
+                  <p class="text">NAVIDAD</p>
+                </div>
+                <div class="categoria5">
+                  <p class="text">PAN</p>
+                </div>
+                <div class="categoria6">
+                  <p class="text">CUPCAKES</p>
+                </div>
+                  
+              </div>
+            </section>
+          </main>
+
+
+
+
+         
+
+
+
+
+
+
+          <!--<main class="main">
+            <div class="container">
+            <h2 class="main-titulo">Elegí con qué querés endulzarte hoy!</h2>
+            <section class="container-productos">
+              <div class="producto">
+                <img src=".." alt="" class="producto-img">
+                <div class="producto-desc">
+                  <h3 class="producto-titulo">ALFAJORES</h3>
+                  <span class="producto-precio"></span>
+                </div>
+                <i class="bi bi-cart-plus-fill"></i>
+              </div>
+              <div class="producto">
+                <img src=".." alt="" class="producto-img">
+                <div class="producto-desc">
+                  <h3 class="producto-titulo">TORTAS</h3>
+                  <span class="producto-precio"></span>
+                <i class="bi bi-cart-plus-fill"></i>
+              </div>
+              <div class="producto">
+                <img src=".." alt="" class="producto-img">
+                <div class="producto-desc">
+                  <h3 class="producto-titulo">DONAS</h3>
+                  <span class="producto-precio"></span>
+                <i class="bi bi-cart-plus-fill"></i>
+              </div>
+              <div class="producto">
+                <img src=".." alt="" class="producto-img">
+                <div class="producto-desc">
+                  <h3 class="producto-titulo">NAVIDAD</h3>
+                  <span class="producto-precio"></span>
+                </div>
+                <i class="bi bi-cart-plus-fill"></i>
+              </div>
+              <div class="producto">
+                <img src=".." alt="" class="producto-img">
+                <div class="producto-desc">
+                  <h3 class="producto-titulo">PAN</h3>
+                  <span class="producto-precio"></span>
+                </div>
+                <i class="bi bi-cart-plus-fill"></i>
+              </div>
+              <div class="producto">
+                <img src=".." alt="" class="producto-img">
+                <div class="producto-desc">
+                  <h3 class="producto-titulo">CUPCAKES</h3>
+                  <span class="producto-precio"></span>
+                </div>
+                <i class="bi bi-cart-plus-fill"></i>
+              </div>
+              </div>
+            </section>
+          </main>-->
+
+          <!--<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="1000">
+                <img src="../static/img/slider2/1.jpg" class=" d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="../static/img/slider2/2.jpg" class=" d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000"> 
+                <img src="../static/img/slider2/3.jpg" class=" d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000"> 
+                <img src="../static/img/slider2/4.jpg" class=" d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>-->
+
+          
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    </body>
+</html>

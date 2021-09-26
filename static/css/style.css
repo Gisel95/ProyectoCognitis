@@ -13,9 +13,10 @@ body{
       --color-violeta: #89057C;
       --color-rosado: #DA96CC;
       --color-header1: #fafbff65;
-      --color-header2: #DA96CC;
-      --color-login: #89057C;
       --color-boton: #B47F2D;
+      --font-titulo: 'Abril Fatface', cursive;
+      --font-subtitulo: 'Arbutus Slab', cursive;
+      --font-menu: 'Bebas Neue', cursive;
   }
 
  .titulo {
