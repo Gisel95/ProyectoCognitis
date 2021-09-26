@@ -32,6 +32,30 @@ def contacto():
 def tienda():
     return render_template('tienda.html')
 
+@app.route('/alfajores')
+def alfajores():
+    return render_template('alfajores.html')
+
+@app.route('/torta')
+def torta():
+    return render_template('torta.html')
+
+@app.route('/donas')
+def donas():
+    return render_template('donas.html')
+
+@app.route('/navidad')
+def navidad():
+    return render_template('navidad.html')
+
+@app.route('/pan')
+def pan():
+    return render_template('pan.html')
+
+@app.route('/cupcakes')
+def cupcakes():
+    return render_template('cupcakes.html')
+
 
 
 

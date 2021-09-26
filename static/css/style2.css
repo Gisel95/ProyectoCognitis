@@ -285,4 +285,70 @@ height: 121.36px;
 .categoria6:hover {
     transform: scale(1.15);
 }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/*ALFAJORES*/
+.prod-titulo {
+    padding-top: 20px;
+    font-family: var(--font-titulo);
+    color: var(--color-violeta);
+    text-align: center;
+    text-shadow: 1px 1px 1px #DA96CC,
+    -3px 1px 1px #DA96CC;
+    font-size: 40px;
     
+}
+.producto-img {
+    width: 350px;
+    height: 400px;
+    background-size: 100% 100%;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.agotado {
+    position: absolute;
+    margin-top: -120%;
+    margin-left: 75%;
+}
+
+.producto-img:hover {
+    transform: scale(1.15);
+}
+
+.card {
+    background-color: #e4cfe000;
+    width: 350px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    transition: all 100ms;
+    box-shadow: 10px 1px 10px rgba(0, 0, 0, 0.5);  
+    border-radius: 30px;  
+}
+
+.col {
+    padding-top: 40px;
+    padding-left: 130px;
+}
+
+.producto-titulo {
+    font-family: var(--font-subtitulo);
+    padding-top: 10px;
+    font-weight:bolder;
+}
+
+.producto-precio {
+    color: var(--color-boton);
+    font-size: 30px;
+}
+
+.producto-icono {
+    font-size: 30px;
+}
+
+
