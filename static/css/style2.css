@@ -300,55 +300,88 @@ a {
     text-shadow: 1px 1px 1px #DA96CC,
     -3px 1px 1px #DA96CC;
     font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.alfajores {
+    text-align: center;
+}
+
+.titulo-alfajores {
+    font-family: var(--font-subtitulo);
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.precio-alfajores {
+    color: var(--color-boton);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.producto-icono {
+    color: white;
+    font-size: 30px;
+}
+
+.card-alfajores img {
+    border-radius: 30px;
+    width: 300px;
+    height: 400px;
+    transition: all 300ms;
+    cursor: pointer;
+}
+
+.card-alfajores img:hover {
+    transform: scale(1.15);
+}
+
+.card-alfajores {
+    width: 300px;
+    height: 550px;
+    border-radius: 30px;
+    color: rgb(68, 68, 68);
+    background: rgba(100, 148, 237, 0);
     
 }
-.producto-img {
-    width: 350px;
-    height: 400px;
+
+.col-alfajores {
+    margin-bottom: 30px; 
+    padding-left: 60px;
+}
+
+
+/*TORTAS
+.producto-torta .producto-img {
+    width: 370px;
+    height: 420px;
     background-size: 100% 100%;
     border-radius: 30px;
     cursor: pointer;
 }
 
-.agotado {
-    position: absolute;
-    margin-top: -120%;
-    margin-left: 75%;
+.producto-torta .col {
+    width: 400px;
+    margin-left: 100px;
 }
 
-.producto-img:hover {
-    transform: scale(1.15);
+.producto-torta .card {
+    width: 370px;
 }
 
-.card {
-    background-color: #e4cfe000;
-    width: 350px;
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    transition: all 100ms;
-    box-shadow: 10px 1px 10px rgba(0, 0, 0, 0.5);  
-    border-radius: 30px;  
+.producto-torta .producto-icono {
+    color: rgb(255, 255, 255);
 }
 
-.col {
-    padding-top: 40px;
-    padding-left: 130px;
+/*NAVIDAD
+.producto-navidad .producto-img {
+    width: 380px;
+    height: 420px;
+    background-size: 100% 100%;
 }
 
-.producto-titulo {
-    font-family: var(--font-subtitulo);
-    padding-top: 10px;
-    font-weight:bolder;
+.producto-navidad .card {
+    width: 380px;
 }
 
-.producto-precio {
-    color: var(--color-boton);
-    font-size: 30px;
-}
-
-.producto-icono {
-    font-size: 30px;
-}
-
-
+PAN*/
