@@ -35,14 +35,20 @@
          <h2 class="subtitulo2">El capricho hecho dulce</h2> 
         </div>
 
+    {%block main%}
+    
         <section class="box">
             <img src="../static/img/GyG.png" alt="">
+            <form action="/login" method="POST">
             <div class="login">
             <h2>Inicio de Sesión</h2>
-            <input class="boton1" type="text" name="Usuario" id="usuario" placeholder="Usuario">
-            <input class="boton1" type="password" name="Contraseña" id="contraseña" placeholder="Contraseña">
+            <input class="boton1" type="text" name="usuario" id="usuario" placeholder="Usuario">
+            <input class="boton1" type="password" name="contraseña" id="contraseña" placeholder="Contraseña">
             <input class="iniciar" type="submit"  value="Iniciar Sesión">
             <a class="reg1" href="/registro">Registrarse</a>
             </div>
+        </form>
         </section>
+            
+    {%endblock main%}
     </body>

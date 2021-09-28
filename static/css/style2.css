@@ -303,17 +303,17 @@ a {
     padding-bottom: 30px;
 }
 
-.alfajores {
+.alfajores, .torta, .donas, .navidad, .pan, .cupcakes {
     text-align: center;
 }
 
-.titulo-alfajores {
+.titulo-alfajores, .titulo-torta, .titulo-donas, .titulo-navidad, .titulo-pan, .titulo-cupcakes {
     font-family: var(--font-subtitulo);
     font-weight: bolder;
     font-size: 18px;
 }
 
-.precio-alfajores {
+.precio-alfajores, .precio-torta, .precio-donas, .precio-navidad, .precio-pan, .precio-cupcakes {
     color: var(--color-boton);
     font-size: 20px;
     margin-bottom: 10px;
@@ -336,7 +336,7 @@ a {
     transform: scale(1.15);
 }
 
-.card-alfajores {
+.card-alfajores, .card-torta, .card-donas, .card-navidad, .card-cupcakes {
     width: 300px;
     height: 550px;
     border-radius: 30px;
@@ -345,43 +345,60 @@ a {
     
 }
 
-.col-alfajores {
+.col-alfajores, .col-torta, .col-donas, .col-navidad, .col-cupcakes {
     margin-bottom: 30px; 
     padding-left: 60px;
 }
 
 
-/*TORTAS
-.producto-torta .producto-img {
-    width: 370px;
-    height: 420px;
-    background-size: 100% 100%;
+/*TORTAS*/
+.card-torta img {
     border-radius: 30px;
+    width: 300px;
+    height: 400px;
+    transition: all 300ms;
     cursor: pointer;
 }
 
-.producto-torta .col {
-    width: 400px;
-    margin-left: 100px;
+.card-torta img:hover {
+    transform: scale(1.15);
 }
 
-.producto-torta .card {
-    width: 370px;
+/*DONAS*/
+.card-donas img {
+    border-radius: 30px;
+    width: 300px;
+    height: 400px;
+    transition: all 300ms;
+    cursor: pointer;
 }
 
-.producto-torta .producto-icono {
-    color: rgb(255, 255, 255);
+.card-donas img:hover {
+    transform: scale(1.15);
 }
 
-/*NAVIDAD
-.producto-navidad .producto-img {
-    width: 380px;
-    height: 420px;
-    background-size: 100% 100%;
+/*NAVIDAD*/
+.card-navidad img {
+    border-radius: 30px;
+    width: 300px;
+    height: 400px;
+    transition: all 300ms;
+    cursor: pointer;
 }
 
-.producto-navidad .card {
-    width: 380px;
+.card-navidad img:hover {
+    transform: scale(1.15);
 }
 
-PAN*/
+/*CUPCAKES*/
+.card-cupcakes img {
+    border-radius: 30px;
+    width: 300px;
+    height: 400px;
+    transition: all 300ms;
+    cursor: pointer;
+}
+
+.card-cupcakes img:hover {
+    transform: scale(1.15);
+}
