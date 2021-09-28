@@ -385,7 +385,6 @@ a {
     color: rgb(68, 68, 68);
     background: rgba(100, 148, 237, 0);
     box-shadow: 10px 4px 4px rgba(0, 0, 0, 0.25);
-    
 }
 
 .col-alfajores, .col-torta, .col-donas, .col-navidad, .col-pan, .col-cupcakes {
@@ -446,7 +445,6 @@ a {
     transform: scale(1.15);
 }
 
-
 /*CUPCAKES*/
 .card-cupcakes img {
     border-radius: 30px;
@@ -467,3 +465,102 @@ a {
     background: rgba(222, 184, 135, 0);
     box-shadow: 10px 4px 4px rgba(0, 0, 0, 0.25)
 }
+
+/*CONTACTO*/
+
+/*whatsapp*/
+.whatsapp-info {
+    margin-left: 100px;
+}
+
+.whatsapp {
+    margin-left: 10px;
+}
+
+.texto, .texto-sub {
+    margin-left: 280px;
+}
+
+.texto-sub {
+    margin-left: 295px;
+}
+
+/*email*/
+.email {
+    position: absolute;
+    width: 142px;
+    height: 136px;
+    left: 650px;
+    top: 210px;
+}
+
+.texto2 {
+    position: absolute;
+    width: 479px;
+    height: 60px;
+    left: 755px;
+    top: 345px;
+}
+
+.texto-sub2 {
+    position: absolute;
+    width: 386px;
+    height: 43px;
+    left: 737px;
+    top: 385px;
+}
+
+/*facebook*/
+.facebook {
+    position: absolute;
+    width: 142px;
+    height: 136px;
+    left: 750px;
+    top: 500px;
+}
+
+.texto3 {
+    position: absolute;
+    width: 479px;
+    height: 60px;
+    left: 745px;
+    top: 640px;
+}
+
+.texto-sub3 {
+    position: absolute;
+    width: 386px;
+    height: 43px;
+    left: 770px;
+    top: 672px;
+}
+
+/*instagram*/
+.instagram {
+    position: absolute;
+    width: 190px;
+    height: 182px;
+    left: 344px;
+    top: 509px;
+}
+
+.texto4 {
+    position: absolute;
+    width: 479px;
+    height: 56px;
+    left: 365px;
+    top: 670px;
+}
+
+.texto-sub4 {
+    position: absolute;
+    width: 386px;
+    height: 43px;
+    left: 385px;
+    top: 700px;
+}
+
+.texto-info1, .texto-info2, .texto-info3, .texto-info4 {
+    font-size: 20px;
+}
+
