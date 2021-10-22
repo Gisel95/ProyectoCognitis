@@ -10,12 +10,6 @@ body {
 }
 
 /*MENU*/
-.header2 {
-    background-color: var(--color-header2);
-    height: 50px;
-}
-
-
 /*Titulo y Subtitulo*/
 .nombre {
 position: absolute;
@@ -158,11 +152,17 @@ top: calc(50% - 316px/2);
     text-decoration: underline;
 }
 
+/*INICIO*/
+.texto-inicio {
+    left: 100px;
+    font-family: var(--font-subtitulo);
+    text-align: center;
+}
+
 /*SOBRE MI*/
 .bio {
-    font-size: 50px;
+    font-size: 45px;
     font-family: 'Abril Fatface', cursive;
-    text-decoration-line: underline;
     text-align: center;
     margin-top: 1px;
 }
@@ -248,7 +248,8 @@ height: 121.36px;
     text-align: center;
     color: var(--color-boton);
     margin: 20px 0;
-    font-size: 20px;
+    font-size: 25px;
+    
 }
 
 .menu-productos {
@@ -467,6 +468,9 @@ a {
 }
 
 /*CONTACTO*/
+.contacto {
+    padding-top: 20px;
+}
 
 /*whatsapp*/
 .whatsapp-info {
@@ -474,7 +478,19 @@ a {
 }
 
 .whatsapp {
-    margin-left: 10px;
+    position: absolute;
+    width: 120px;
+    height: 121.36px;
+    left: 74px;
+    top: 125px;
+}
+
+.texto {
+    position: absolute;
+    width: 479px;
+    height: 60px;
+    left: 60px;
+    top: 345px;
 }
 
 .texto, .texto-sub {
@@ -482,7 +498,11 @@ a {
 }
 
 .texto-sub {
-    margin-left: 295px;
+    position: absolute;
+    width: 386px;
+    height: 43px;   
+    left: 80px;
+    top: 387px;
 }
 
 /*email*/
@@ -490,7 +510,7 @@ a {
     position: absolute;
     width: 142px;
     height: 136px;
-    left: 650px;
+    left: 655px;
     top: 210px;
 }
 
@@ -515,7 +535,7 @@ a {
     position: absolute;
     width: 142px;
     height: 136px;
-    left: 750px;
+    left: 757px;
     top: 500px;
 }
 
@@ -534,7 +554,10 @@ a {
     left: 770px;
     top: 672px;
 }
-
+.facebook-info a, .instagram-info a {
+    text-decoration: none;
+    color:black;
+}
 /*instagram*/
 .instagram {
     position: absolute;
@@ -548,7 +571,7 @@ a {
     position: absolute;
     width: 479px;
     height: 56px;
-    left: 365px;
+    left: 350px;
     top: 670px;
 }
 
